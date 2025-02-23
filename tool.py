@@ -42,7 +42,7 @@ def extract_captcha_text(image_path):
 image_path = 'D:\Websec\midterm\static\captcha\captcha.png' #rememeber to chage path
 result = extract_captcha_text(image_path)
 print(f"Extracted text: {result}")
-#post extracted tool to the web server. Take the # off to make the script post the extracted captcha string to the web(rate:1 sucessful attempts and 2 near sucessful out of 10 attempts during testing...fuck me)
+#post extracted tool to the web server. Take the # off to make the script post the extracted captcha string to the web
 #data = {
 #     "captcha_input": result
 # }
